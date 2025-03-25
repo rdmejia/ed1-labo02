@@ -12,7 +12,7 @@ public class E03AVLTree<T> {
         this.comparator = comparator;
     }
 
-    public void insert(T value, TreeNode<Integer> ignored) {
+    public void insert(T value) {
         root = insertarRecursivo(root, value);
     }
 
