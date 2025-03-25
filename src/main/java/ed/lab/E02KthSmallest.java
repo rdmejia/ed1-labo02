@@ -1,6 +1,7 @@
 package ed.lab;
 
 public class E02KthSmallest {
+    //segundo
     public int count = 0;
     public int result = 0;
 
